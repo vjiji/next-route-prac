@@ -25,7 +25,6 @@ export default function ArchiveDetailPage({ params }) {
     news = getNewsForYearAndMonth(selectedYear, selectedMonth);
     links = [];
   }
-  console.log(news);
 
   let newsContent = <p>해당 뉴스가 없습니다!</p>;
 
